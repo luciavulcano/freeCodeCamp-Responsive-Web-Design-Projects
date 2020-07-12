@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+
+}
+
+.main {
+    padding: 0.4rem;
+    width: 50%;
+    border: 0.1rem solid #CFBB32;
+    border-radius: 0.3rem;
+    margin: auto;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+
+}
+
+.header {
+    background-color: #E7E7E7;
+    border-radius: 0.6rem;
+    border-color: #DEDDD7;
+    border-width: 0.125rem;
+    border-style: solid;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    text-shadow: 0.3rem 0.3rem 0.8rem black;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+.container {
+    background-color: #E7E7E7;
+    border-radius: 0.6rem;
+    border-color: #DEDDD7;
+    border-width: 0.125rem;
+    border-style: solid;
+    margin-left: 1rem;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fig-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.image {
+    border-radius: 0.6rem;
+    height: auto;
+    box-shadow: 0.5rem 0.5rem 0.8rem black;
+    max-width: 40%;
+}
+
+.img-caption {
+    font-size: 0.8rem;
+    font-style: italic;
+    padding-top: 0.5rem;
+    font-weight: bolder;
+}
+
+.tribute-info {
+    margin: 0;
+    display: block;
+    padding: 1.3rem;
+    text-align: justify;
+}
+
+.general-info {
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    background-color: black;
+    color: white;
+    padding-left: 0.3rem;
+    margin: 1.2rem 0;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0.5rem 0.5rem 0.8rem black;
+}
+
+.link {
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.link:hover {
+    opacity: 0.8;
+    font-size: 1.1rem;
+
+}
+
+.quote {
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-style: italic;
+    align-self: flex-start;
+
+}
+
+.footer {
+    border-radius: 0.6rem;
+    border-color: #DEDDD7;
+    border-width: 0.125rem;
+    border-style: solid;
+    background-color: #E7E7E7;
+    text-align: center;
+    padding: 1.8rem;
+    padding-bottom: 0;
+}
+
+.credits-img {
+    width: 7%;
+}
+
+
+@media(max-width:768px) {
+
+    .main {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .image {
+        width: 50%;
+
+    }
+}
+
+@media (max-width: 500px) {
+
+    .main {
+        width: 95%;
+    }
+
+    .image {
+        width: 70%;
+    }
+
+    .general-info {
+        width: 70%;
+    }
+
+    .credits-img {
+        width: 15%;
+    }
+}
