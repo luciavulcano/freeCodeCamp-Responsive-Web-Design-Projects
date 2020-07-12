@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Responsive Web Design Projects - Build a Survey Form</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 id="title"> Questionário</h1>
+        <p class="subtitle" id="description"> Gostaríamos de conhecer um pouco mais sobre você! </p>
+    </header>
+
+    <form id="survey-form" class="form">
+        <br>
+        <label class="title-form" id="name-label"> Insira seu nome: <br>
+            
+            <input type="text" required placeholder="Insira seu nome" id="name" action=/"submit-your-name"> </label>
+            <br>
+            <br>
+
+        <label class="title-form" id="email-label"> Insira seu e-mail: <br>
+            
+            <input type="email" required placeholder="Insira um e-mail válido" id="email"
+                action="/submit-a-valid-email"></label>
+            <br>
+            <br>
+
+        <label class="title-form" id="number-label">Insira sua idade: <br>
+            
+            <input type="number" required id="number" min="18" max="99" placeholder="Idade"
+                action="/submit-a-number"></label>
+            <br>
+            <br>
+
+        <label class="title-form" id="dropdown"> O que achou até agora do meu progresso? <br>
+           
+            <select>
+                <option> Ótimo</option>
+                <option>Bom</option>
+                <option>Regular</option>
+                <option>Fraco</option>
+            </select>
+        </label>
+            <br>
+            <br>
+
+        <div id="radio"><p class="title-form">Esses botões do 'radio' funcionam? </p><br>
+            
+            <label id="simR"><input class="radio" type="radio" name="sntR" value="sim"> Sim </label><br>
+            <label id="naoR"><input class="radio"  type="radio" name="sntR" value="nao"> Não </label><br>
+            <label id="talvezR"><input class="radio"  type="radio" name="sntR" value="talvez"> Talvez </label><br>
+        </div>
+
+        <br>
+        <div id="checkbox"> <p class="title-form"> Esses botões do 'checkbox' funcionam? </p><br>
+           
+            <label  id="simC"><input class="checkbox" type="checkbox" name="sntC" value="sim">Sim</label><br>
+            <label id="naoC"><input  class="checkbox" type="checkbox" name="sntC" value="nao">Não</label><br>
+            <label  id="talvezC"><input class="checkbox" type="checkbox" name="sntC" value="talvez">Talvez</label><br>
+        </div>
+        <br>
+
+        <div>
+            <p class="comments-title">Alguma sugestão para mim?</p>
+            <textarea class="comments"id="comments" class="input-textarea" name="comment" placeholder="Escreva aqui"></textarea>
+        </div>
+        <br>
+        <button class="button"id="submit" type="submit" position="center"><b>Enviar</b></button>
+
+        <br>
+    </form>
+</body>
+
+</html>
