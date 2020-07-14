@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    background-color: #785480;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    color: white;
+
+}
+
+.cabecalho-nav {
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.img {
+    width: 13%;
+    display: block;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.nav-lista {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 1rem;
+
+}
+
+.nav-lista a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    padding-top: 0;
+   
+
+}
+
+.nav-lista a:hover {
+    background: #BF87CC;
+    opacity: 80%;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.main-img {
+    align-items: center;
+    border-radius: 100px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    float: left;
+    justify-content: center;
+    margin: 50px;
+    opacity: 1;
+    transition: 400ms;
+    width: 30%;
+}
+
+.main-img:hover {
+    opacity: 0.8;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 0 0 50px;
+    padding: 170px 0 0 0;
+    width: 90%;
+}
+
+.sobre-links {
+    text-decoration: none;
+    color: purple;
+}
+
+.sobre-nos {
+    margin: 0 0 20px 0;
+    padding-top: 15px;
+}
+
+.sobre-nos img {
+    width: 10%;
+    border-radius: 100px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.4);
+    float: left;
+    margin: 10px;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.sobre-nos img:hover {
+    opacity: 0.8;
+}
+
+.midia-podcast {
+    margin: 8px 0 8px 0;
+}
+
+.midia-podcast iframe {
+    width: 25%;
+}
+
+.midia-jornal {
+    margin: 8px 0 8px 0;
+}
+
+.midia-blog {
+    margin: 8px 0 0 0;
+}
+
+.discografia,
+.videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 0 0 50px;
+    padding: 100px 0 0 0;
+}
+
+.sobre-titulo,
+.sobre-conteudo,
+.disco-titulo,
+.videos-titulo {
+    margin: 0;
+}
+
+.discos {
+    display: flex;
+    flex-direction: inline-flex;
+    text-align: justify;
+}
+
+.discos>iframe {
+    border: 0;
+    width: 400px;
+    height: 274px;
+    display: inline-flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.videos-grid>iframe {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.formulario p {
+    font-weight: bolder;
+}
+
+.input {
+    width: 15%;
+    margin-bottom: 10px;
+}
+
+.botao {
+    padding: 5px;
+    border-radius: 5px;
+    width: 10%;
+    margin-bottom: 10px;
+    background-color: #000;
+    border-color: #785480;
+    color: white;
+}
+
+.footer {
+    background-color: #785480;
+    text-align: center;
+    color: white;
+    width: 100vw;
+}
+
+.redes-sociais {
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais-link {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.redes-sociais :hover {
+    opacity: 0.6;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 320px) and (max-width:900px) {
+    .cabecalho {
+        position: static;
+        flex-direction: column-reverse;
+        width: auto;
+        height: auto;
+    }
+
+    .img {
+
+        width: 20%;
+    }
+
+    .nav-lista a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        justify-content: start;
+        padding: 8px;
+    }
+
+    .nav-lista {
+        color: white;
+        display: inline-flex;
+        margin: 0;
+        width: 100vw;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .sobre {
+        width: auto;
+        height: auto;
+        text-align: justify;
+        margin: 8px;
+        padding: 10px;
+    }
+
+    .main-img {
+        float: none;
+        width: 80%;
+    }
+
+    .sobre-nos img {
+        float: none;
+        width: 80%;
+        align-items: center;
+    }
+
+    .discografia,
+    .videos {
+        width: auto;
+        height: auto;
+        text-align: justify;
+        margin: 8px;
+        padding: 5px;
+    }
+
+    .discos {
+        flex-direction: column;
+    }
+
+    .discos>iframe {
+        width: 70%;
+        margin-bottom: 15px;
+    }
+
+    .videos-grid>iframe {
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .botao {
+        width: 20%;
+    }
+
+    .redes-sociais {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .sobre {
+        font-size: 25px;
+    }
+}
