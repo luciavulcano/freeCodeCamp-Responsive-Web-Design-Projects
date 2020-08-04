@@ -1,0 +1,27 @@
+.nav {
+    align-items: flex-end;
+    background: pink;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    font-size: 1.2rem;
+    height: 10vh;
+    position: fixed;
+    width: 100vw;  
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;   
+}
+
+.nav-link {
+    color: whitesmoke;
+    padding: 0 1rem;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black; 
+}
+
+.nav-link:hover {
+    opacity: 80%;
+    text-decoration: underline;
+}

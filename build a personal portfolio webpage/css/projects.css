@@ -1,0 +1,36 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    align-items: center;
+}
+
+.projects__title {
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px goldenrod;
+}
+
+.project__grid{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 45% 45%;
+  grid-gap: 1rem;
+  margin: 1rem;
+  
+}
+
+.project__tile__text{
+    background-color: rgb(102, 35, 102);
+    color: white;
+    text-decoration: none;
+    border-radius: .8rem;
+    text-align: center;
+    font-size: .9rem;
+    padding: .5rem;
+    box-shadow: 5px 3px 5px black;
+}
+
+.project-tile:hover {
+    opacity: 0.8;
+}

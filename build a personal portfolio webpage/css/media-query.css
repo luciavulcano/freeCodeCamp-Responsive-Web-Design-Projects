@@ -1,0 +1,38 @@
+@media (min-width: 768px){
+
+    .project__grid{
+        grid-template-columns: 25% 25% 25% 25% ;
+        grid-gap: .7rem;
+        margin: .5rem;  
+      }
+}
+
+@media (min-width: 1024px){
+    .welcome__title {
+        font-size: 3rem;
+    }
+
+    .welcome__subtitle {
+        font-size: 2rem;
+        text-shadow: 1px 1px 1px black;
+        margin-top: 6rem;
+        
+    }
+
+    .projects__title {
+        font-size: 2rem; 
+    }
+    
+    .project__grid{
+      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-rows: 25% 25% 25% 25%;
+      grid-gap: 1.2rem;
+      margin: 1rem;
+      
+    }
+    
+    .project__tile__text{
+        font-size: 1.1rem;
+        padding: .8rem;
+    }
+}

@@ -1,0 +1,28 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.banner__email {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color:rgb(102, 35, 102, 0.8);
+    padding: .7rem 1rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    box-shadow: 5px 3px 5px black;
+    font-weight: bolder;
+}
+
+.banner__email:hover{
+    opacity: 0.4;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 2rem;
+}
+
